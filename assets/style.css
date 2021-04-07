@@ -1,0 +1,93 @@
+:root{
+    --teal: rgb(146, 204, 205);
+    --background: rgb(49,52,61);
+    --blue: rgb(68,88,116);
+}
+
+body{
+    background-color: rgb(237, 237, 246);
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    background: var(--background);
+    color: var(--teal);
+    
+}
+
+.header h1{
+    display: inline-block;
+    font-size: 35px;
+    border-bottom: solid var(--blue) 4px;
+    border-radius: 8px;
+}
+
+.header nav{
+    display: flex;
+    list-style-type: none;
+}
+
+.header nav a{
+    display: inline-block;
+    margin-left: 25px;
+    color: var(--teal);
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    border-bottom: var(--teal);
+}
+
+p{
+    font-size: 10px;
+    color: var(--teal);
+}
+
+.subtitle {
+    height: 100px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../assets/chevronimage.png");
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.subtitle p{
+    display: inline-block;
+    margin-left: 25px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    border: var(--teal) 2px;
+    border-radius: 0px;
+    
+}
+
+.content{
+    margin: 25px 0;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+
+.content  h2 {
+    flex: 0 0 20%;
+    text-align: right;
+    padding-right: 20px;
+    border-right: 4px solid var(--blue);
+    font-size: 1.5rem;
+    line-height: 1.2;
+
+}
+
+.content  div {
+    flex: 0 0 75%;
+}
+
+.content p {
+    margin-bottom: 20px;
+}
