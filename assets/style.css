@@ -15,15 +15,12 @@ header {
     padding: 20px;
     font-family: 'Times New Roman', Times, serif;
     background: var(--background);
-    color: var(--teal);
     
 }
 
 .header h1{
     display: inline-block;
-    font-size: 35px;
-    border-bottom: solid var(--blue) 4px;
-    border-radius: 8px;
+    font-size: 75px;
 }
 
 .header nav{
@@ -41,8 +38,9 @@ header {
 }
 
 p{
-    font-size: 10px;
-    color: var(--teal);
+    font-size: 13px;
+    
+    
 }
 
 .subtitle {
@@ -60,9 +58,8 @@ p{
     margin-left: 25px;
     font-size: 30px;
     font-family: 'Times New Roman', Times, serif;
-    border: var(--teal) 2px;
-    border-radius: 0px;
-    
+    border: 20px solid var(--teal); 
+    color: var(--background);
 }
 
 .content{
@@ -74,10 +71,10 @@ p{
     align-items: stretch;
 }
 
-.content  h2 {
+.content  h2, h3, h4{
     flex: 0 0 20%;
     text-align: right;
-    padding-right: 20px;
+    padding-right: 15px;
     border-right: 4px solid var(--blue);
     font-size: 1.5rem;
     line-height: 1.2;
@@ -85,9 +82,16 @@ p{
 }
 
 .content  div {
-    flex: 0 0 75%;
+    flex: 0 0 70%;
+    padding-left: 15px;
 }
 
 .content p {
     margin-bottom: 20px;
+    color: var(--blue);
+}
+
+.content img{
+   max-height: 150px;
+   border: 3px solid var(--teal);
 }
