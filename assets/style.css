@@ -18,16 +18,16 @@ header {
     
 }
 
-h1{
-    display: inline-block;
+h1 {
+    margin-right: auto;
+    /* display: inline-block; */
     font-size: 30px;
     border: 10px solid var(--teal); 
     background-color: var(--teal);
     color: var(--background);
 }
 
- .nav{
-
+ .nav {
     padding-right: 28px;
     margin-top: 24px;
     display: inline-block;
@@ -40,28 +40,22 @@ h1{
     color: var(--teal);
     font-family: 'Times New Roman', Times, serif;
 }
-/* 
-a {
-    color: var(--teal);
-    font-size: 20px;
-} */
 
 p{
     font-size: 15px;
 }
 
 .subtitle {
-    height: 150px;
+    height: 200px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../assets/chevronimage.png");
+    background-image: url("./images/beach.jpg");
     background-size: cover;
     background-position: center;
-    
 }
 
 .subtitle > p{
-    margin-top: 60px;
+    margin-top: 109px;
     float: right;
     font-size: 35px;
     font-family: 'Times New Roman', Times, serif;
@@ -89,7 +83,7 @@ p{
 
 }
 
-.content  div {
+.content div {
     flex: 0 0 70%;
     padding-left: 15px;
 }
@@ -99,18 +93,37 @@ p{
     color: var(--blue);
 }
 
-.content img{
+ .surf {  
+
+    padding-left: 15px;
+    background-image: url("./images/SURF.jfif");
+    background-size: cover;
+    height: 200px;
+    justify-content: flex-start;
+    border: 2px solid var(--teal); 
     
-   max-height: 150px;
-   border: 3px solid var(--teal);
 }
+
+.surf p{
+    
+    margin-right: 324px;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    border: 10px solid var(--teal); 
+    background-color: var(--teal);
+    color: var(--background);
+    
+
+}
+
+ /* .calculator{
+    background-image: url("./images/calculator.jfif");
+    background-size: cover;
+    border: 2px solid var(--teal);
+}  */
 
 .content address a{
     color: var(--blue);
     padding-right: 15px;
-    
-}
-
-:hover address a{
     
 }
