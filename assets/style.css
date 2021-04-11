@@ -20,7 +20,6 @@ header {
 
 h1 {
     margin-right: auto;
-    /* display: inline-block; */
     font-size: 30px;
     border: 10px solid var(--teal); 
     background-color: var(--teal);
@@ -83,6 +82,12 @@ p{
 
 }
 
+.content img{
+    margin-bottom: 13px;
+    max-width: 171px;
+    max-height: 164px;
+}
+
 .content div {
     flex: 0 0 70%;
     padding-left: 15px;
@@ -93,36 +98,16 @@ p{
     color: var(--blue);
 }
 
- .surf {  
-
-    padding-left: 15px;
-    background-image: url("./images/SURF.jfif");
-    background-size: cover;
-    height: 200px;
-    justify-content: flex-start;
-    border: 2px solid var(--teal); 
-    
-}
-
-.surf p{
-    
-    margin-right: 771px;
-    font-size: 22px;
-    font-family: 'Times New Roman', Times, serif;
-    border: 10px solid var(--teal); 
+ .surf img{
+     max-width: 500px;
+     max-height: 500px;
+     border: 3px solid var(--teal); 
     background-color: var(--teal);
     color: var(--background);
-    
-
-}
-
- /* .calculator{
-    background-image: url("./images/calculator.jfif");
-    background-size: cover;
-    border: 2px solid var(--teal);
-}  */
+ }
 
 .content address a{
+    display: inline-block;
     color: var(--blue);
     padding-right: 15px;
     
